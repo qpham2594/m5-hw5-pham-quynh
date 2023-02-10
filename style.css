@@ -30,7 +30,7 @@ a:hover {color:red}
 }
 
 body { 
-     background-image: url("../Pictures/natural.png");
+     background-image: url("./Pictures/natural.png");
      margin: 0;
      
 }
