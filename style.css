@@ -1,1 +1,122 @@
+header > nav {
+    float:right ;
+    
+ }
+ 
 
+.topbar {
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    border-bottom: 2px solid #000000;
+    padding: 0 350px 0 305px;
+    margin: 0;
+    
+    
+}
+
+/* === Link colors == */
+
+a:link {color:rgb(88, 5, 88); 
+    text-decoration: none;}
+a:visited { color: rgb(0, 74, 0);}
+a:active {color: olivedrab}
+a:hover {color:red}
+
+
+.name {
+    background-color: rgba(224, 78, 78, 0.792);
+    padding: 0 10px;  
+}
+
+body { 
+     background-image: url("../Pictures/natural.png");
+     margin: 0;
+     
+}
+
+.photo{
+    width: 200px; 
+    height: 133px; 
+    padding: 3px 5px; 
+    margin-right: 10px; 
+    float: left; 
+}
+
+.content {
+    margin: 20px auto;
+    max-width: 800px;    
+}
+
+.description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    width: 60%;
+    margin: 10px auto;
+    text-align: justify; 
+    border: 2px solid black ; 
+    padding: 0 10px;
+    background-color: white;
+    float: left;   
+}
+
+
+ h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid black;
+    color: rgb(135, 1, 1);
+    font-size: 40px;
+    text-align: left;  
+}
+
+
+p{ text-indent: 30px}
+
+
+.sidebar {
+    border: 2px solid black;
+    background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+    margin: 9px 0 0 50px;
+    box-shadow: 3px 2px 1px brown;
+    text-align:center;
+
+}
+
+
+h2 {     
+    font-size: 20px;
+    color:rgb(135, 1, 1);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid black;
+    
+}
+
+
+img {
+    height: 30px;
+    width: 30px;
+    padding: 1px;
+    margin: 5px 1px;
+    box-shadow: 2px 2px 1px;
+    border: 2px solid black;
+    display: inline-block;  
+
+}
+
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+footer {
+    text-align: center;
+    background-color: grey;
+    border: 2px solid black;
+    color: white;
+}
